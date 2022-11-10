@@ -23,13 +23,12 @@
 
 ### Observations:
 
-* This data was preprocessed in various ways before I chose one
-* Even after preprocessing different ways I still didn't know which best represented my data
-* Random Forest Regression can be used on the data 'as is', or scaled, or selected, or both & it matters how it is preprocessed
-* There remains a lot more to learn about the math happening behind the scenes with these regression tools
+* Initially, I looked at the data in clusters using tsne, and there may have been other preprocessing methods that may have worked better but instead I moved directly onto reducing the data in pca, having it scaled, so we could look at it using K-means.  
+* With more time, I may have wanted to explore tsne with more in depth granularity by manipulating the data first. 
+* That said combining reducing the data with pca, and examining it using Kmeans was fairly effective at predicting clusters.
 
 ---
 
 ### Credits and Special Thanks
 
-* Thanks to SMU; Kaitlin Kirasich, Trace Smith, and Bivin Sadler, PhD, for the educationl review article that helped me further my understanding of machine learning models https://scholar.smu.edu/datasciencereview/vol1/iss3/9
+* Reduced dataset from Orinda Longitudinal Study of Myopia conducted by the US National Eye Institute https://clinicaltrials.gov/ct2/show/NCT00000169
